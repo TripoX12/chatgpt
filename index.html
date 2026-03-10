@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbia Automation Studio | Automatización e IA para empresas que quieren escalar con control</title>
+    <meta
+      name="description"
+      content="Consultoría premium de automatización e IA para pymes: menos trabajo manual, más velocidad comercial, mejor trazabilidad y más rentabilidad operativa."
+    />
+    <meta
+      name="keywords"
+      content="automatización empresarial, consultoría n8n, ia para pymes, optimización de procesos, integración crm"
+    />
+    <meta name="author" content="Orbia Automation Studio" />
+    <meta name="theme-color" content="#121a2c" />
+    <link rel="canonical" href="https://www.orbia.studio/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Orbia Automation Studio" />
+    <meta property="og:title" content="Orbia Automation Studio | Menos fricción, más rentabilidad" />
+    <meta
+      property="og:description"
+      content="Diseñamos sistemas de automatización para empresas que necesitan crecer sin aumentar caos operativo."
+    />
+    <meta property="og:url" content="https://www.orbia.studio/" />
+    <meta property="og:image" content="https://www.orbia.studio/og-image-placeholder.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Orbia Automation Studio" />
+    <meta
+      name="twitter:description"
+      content="Automatización e IA con enfoque de negocio: más control, más eficiencia, más crecimiento."
+    />
+    <meta name="twitter:image" content="https://www.orbia.studio/og-image-placeholder.jpg" />
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1830'/%3E%3Cpath d='M14 32c0-10 8-18 18-18 7 0 13 4 16 10l-6 3c-2-4-6-7-10-7-6 0-11 5-11 12s5 12 11 12c4 0 8-3 10-7l6 3c-3 6-9 10-16 10-10 0-18-8-18-18Z' fill='%2330d5d2'/%3E%3Ccircle cx='47' cy='20' r='5' fill='%23875bff'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Orbia Automation Studio",
+        "url": "https://www.orbia.studio/",
+        "logo": "https://www.orbia.studio/logo-placeholder.png",
+        "description": "Consultoría de automatización e IA para empresas orientada a rentabilidad y eficiencia operativa.",
+        "areaServed": "ES",
+        "email": "hola@orbia.studio",
+        "telephone": "+34 900 000 000",
+        "serviceType": "Automatización de procesos empresariales"
+      }
+    </script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+    <header class="site-header" id="inicio">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="Inicio Orbia Automation Studio">
+          <span class="brand-logo" role="img" aria-label="Logotipo de Orbia">
+            <svg class="brand-symbol" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="orbia-g1" x1="8" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#8F57FF" />
+                  <stop offset="1" stop-color="#30D5D2" />
+                </linearGradient>
+                <linearGradient id="orbia-g2" x1="10" y1="54" x2="54" y2="10" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#3B2AD8" />
+                  <stop offset="1" stop-color="#36D8D6" />
+                </linearGradient>
+              </defs>
+              <circle cx="32" cy="32" r="26" fill="none" stroke="url(#orbia-g1)" stroke-width="6" opacity="0.95" />
+              <path d="M14 20c8-10 26-12 37-2" fill="none" stroke="url(#orbia-g2)" stroke-width="5" stroke-linecap="round"/>
+              <path d="M50 44c-8 10-26 12-37 2" fill="none" stroke="url(#orbia-g2)" stroke-width="5" stroke-linecap="round"/>
+              <circle cx="32" cy="32" r="5.8" fill="#9CEBF0" />
+              <circle cx="44" cy="20" r="4.2" fill="#30D5D2" />
+              <circle cx="20" cy="27" r="4.2" fill="#875BFF" />
+              <circle cx="46" cy="41" r="4" fill="#30D5D2" />
+              <path d="M32 32L44 20M32 32L20 27M32 32L46 41" stroke="url(#orbia-g1)" stroke-width="3.6" stroke-linecap="round"/>
+            </svg>
+            <span class="brand-wordmark">ORB<span class="accent">I</span>A</span>
+          </span>
+        </a>
+
+        <button class="menu-toggle" aria-expanded="false" aria-controls="menu-principal">Menú</button>
+
+        <nav id="menu-principal" class="main-nav" aria-label="Navegación principal">
+          <a href="#enfoque">Enfoque</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#metodo">Método</a>
+          <a href="#credenciales">Credenciales</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <a class="btn btn-primary nav-cta" href="#contacto">Solicitar diagnóstico</a>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section">
+        <div class="container hero-shell">
+          <div class="hero-intro">
+            <p class="eyebrow">Consultoría de automatización e IA para dirección y gerencia</p>
+            <h1>
+              Menos operación manual, más crecimiento:
+              <span>automatización rentable con control real</span>.
+            </h1>
+            <p class="lead">
+              En Orbia diseñamos arquitectura operativa para pymes que quieren crecer sin perder control:
+              automatizamos procesos críticos, conectamos herramientas y elevamos la velocidad comercial.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contacto">Agendar sesión ejecutiva</a>
+              <a class="btn btn-outline" href="#metodo">Ver método Orbia</a>
+            </div>
+            <p class="microcopy">30 min · diagnóstico estratégico · enfoque consultivo, sin presión comercial</p>
+          </div>
+
+          <div class="hero-composition" aria-label="Panel de impacto operativo">
+            <div class="shape shape-a" aria-hidden="true"></div>
+            <div class="shape shape-b" aria-hidden="true"></div>
+
+            <div class="hero-panel hero-panel-main">
+              <p>Panel ejecutivo</p>
+              <h3>Operación más rápida y trazable</h3>
+              <ul>
+                <li>Seguimiento comercial automatizado</li>
+                <li>Menos tareas manuales repetitivas</li>
+                <li>Visibilidad en tiempo real de procesos</li>
+              </ul>
+            </div>
+
+            <div class="hero-kpi hero-kpi-main">
+              <span>Objetivo principal</span>
+              <strong>Más margen operativo</strong>
+            </div>
+            <div class="hero-kpi hero-kpi-mid">
+              <span>Resultado comercial</span>
+              <strong>Seguimiento sin fugas</strong>
+            </div>
+            <div class="hero-kpi hero-kpi-bottom">
+              <span>Resultado operativo</span>
+              <strong>Procesos previsibles</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trust-strip" id="credenciales" aria-label="Señales de confianza">
+        <div class="container trust-grid">
+          <p class="section-label">Empresas y sectores con necesidades operativas reales</p>
+          <div class="logo-row" aria-label="Sectores y logos placeholder">
+            <span>Retail</span>
+            <span>Servicios B2B</span>
+            <span>Clínicas</span>
+            <span>Inmobiliario</span>
+            <span>Educación</span>
+            <span>Despachos</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section metrics-break" aria-label="Impacto de negocio">
+        <div class="container metrics-grid">
+          <article>
+            <strong>01</strong>
+            <h2>Menos tareas repetitivas</h2>
+            <p>Tu equipo recupera horas de alto valor para vender mejor y ejecutar con foco.</p>
+          </article>
+          <article>
+            <strong>02</strong>
+            <h2>Menos errores humanos</h2>
+            <p>Más consistencia y trazabilidad en cada proceso, sin depender de urgencias manuales.</p>
+          </article>
+          <article>
+            <strong>03</strong>
+            <h2>Más velocidad comercial</h2>
+            <p>Cada lead se atiende y se sigue a tiempo, con reglas claras y contexto completo.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="enfoque">
+        <div class="container editorial-split">
+          <div>
+            <p class="section-label">Enfoque Orbia</p>
+            <h2>No implementamos “automatizaciones sueltas”. Diseñamos un sistema operativo de crecimiento.</h2>
+          </div>
+          <div class="editorial-copy">
+            <p>
+              Muchas empresas tienen buenas herramientas pero mala coordinación entre equipos, canales y datos.
+              Ahí se pierde dinero: tiempos muertos, errores, oportunidades frías y decisiones sin visibilidad.
+            </p>
+            <p>
+              En Orbia alineamos operación y negocio para que cada paso sea más eficiente y medible.
+              El resultado: más rentabilidad, más control y mejor escalabilidad.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="servicios">
+        <div class="container">
+          <div class="services-head">
+            <div class="services-intro">
+              <p class="section-label">Servicios de alto impacto</p>
+              <p>Bloques diseñados para ordenar la operación y acelerar decisiones en equipos con alta carga manual.</p>
+            </div>
+            <h2>Intervenciones diseñadas para mejorar rentabilidad operativa y ejecución comercial.</h2>
+          </div>
+
+          <div class="services-columns">
+            <article>
+              <h3>Automatización comercial</h3>
+              <ul>
+                <li>Captación, calificación y asignación de leads</li>
+                <li>Seguimiento por etapa con reglas claras</li>
+                <li>Recuperación de oportunidades dormidas</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Atención multicanal</h3>
+              <ul>
+                <li>WhatsApp, email y formularios conectados</li>
+                <li>Derivación automática por prioridad</li>
+                <li>Respuestas más rápidas y consistentes</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Integración de operaciones</h3>
+              <ul>
+                <li>Sincronización CRM, agendas y reporting</li>
+                <li>Alertas ejecutivas y paneles accionables</li>
+                <li>Tareas internas automatizadas</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tools-section" aria-label="Herramientas integrables">
+        <div class="container tools-layout">
+          <div class="tools-copy">
+            <p class="section-label">Stack integrable</p>
+            <h2>Nos integramos con tu stack actual para acelerar resultados desde la primera fase.</h2>
+            <p>
+              Evitamos migraciones innecesarias. Conectamos las herramientas que ya usas y
+              diseñamos una capa de automatización estable, documentada y escalable.
+            </p>
+          </div>
+          <div class="tools-board">
+            <p class="tools-board-title">Integraciones habituales</p>
+            <div class="tools-cloud">
+              <span>n8n</span><span>HubSpot</span><span>Pipedrive</span><span>Google Workspace</span>
+              <span>Notion</span><span>Slack</span><span>WhatsApp API</span><span>Stripe</span>
+            </div>
+            <p class="tools-note">+ APIs personalizadas, CRMs propietarios y herramientas internas.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="metodo">
+        <div class="container process-layout">
+          <div class="process-sticky">
+            <p class="section-label">Método premium</p>
+            <h2>Una metodología para dirección: claridad, control y avance medible.</h2>
+            <p>Implementamos por fases para asegurar adopción real y continuidad operativa.</p>
+          </div>
+          <ol class="process-track" aria-label="Fases del método Orbia">
+            <li>
+              <span>Fase 1</span>
+              <h3>Diagnóstico estratégico</h3>
+              <p>Identificamos cuellos de botella, costes ocultos y oportunidades de retorno rápido.</p>
+            </li>
+            <li>
+              <span>Fase 2</span>
+              <h3>Arquitectura de flujo</h3>
+              <p>Definimos mapa operativo ideal, responsables, reglas y control de calidad.</p>
+            </li>
+            <li>
+              <span>Fase 3</span>
+              <h3>Implementación por bloques</h3>
+              <p>Desplegamos automatizaciones en ciclos controlados sin interrumpir la operación diaria.</p>
+            </li>
+            <li>
+              <span>Fase 4</span>
+              <h3>Optimización y escala</h3>
+              <p>Medimos, ajustamos y escalamos lo que demuestra impacto real en negocio.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section-accent" id="diferencial">
+        <div class="container differential-layout">
+          <p class="quote">“La automatización correcta no sustituye personas: libera talento para crecer con criterio.”</p>
+          <div class="differential-grid">
+            <article>
+              <h3>Visión de negocio primero</h3>
+              <p>Decisiones técnicas subordinadas a margen, productividad y escalabilidad.</p>
+            </article>
+            <article>
+              <h3>Comunicación ejecutiva</h3>
+              <p>Hablas con consultoría, no con un proveedor que solo enseña herramientas.</p>
+            </article>
+            <article>
+              <h3>Diseño con trazabilidad</h3>
+              <p>Cada flujo queda documentado, medible y listo para evolucionar contigo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="casos">
+        <div class="container case-layout">
+          <div class="case-title">
+            <p class="section-label">Escenarios reales</p>
+            <h2>Ámbitos donde solemos generar impacto en pocas semanas.</h2>
+          </div>
+          <div class="case-list">
+            <article><strong>01</strong><p>Captación y calificación automática de leads desde campañas y formularios.</p></article>
+            <article><strong>02</strong><p>Seguimiento comercial sistemático para evitar oportunidades sin respuesta.</p></article>
+            <article><strong>03</strong><p>Gestión de citas y recordatorios para reducir ausencias y tiempos muertos.</p></article>
+            <article><strong>04</strong><p>Alertas internas para incidencias, operaciones y decisiones de dirección.</p></article>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="section scenarios-section" aria-label="Escenarios habituales de automatización">
+        <div class="container scenarios-shell">
+          <div class="scenarios-head">
+            <p class="section-label">Escenarios habituales</p>
+            <h2>Cómo se traduce la automatización en operaciones reales.</h2>
+            <p>
+              Ejemplos representativos de situaciones habituales en empresas que buscan ganar control,
+              velocidad y trazabilidad operativa.
+            </p>
+          </div>
+
+          <div class="scenarios-grid">
+            <article class="scenario-card">
+              <h3>Clínica estética local</h3>
+              <p>
+                Antes, el equipo perdía tiempo respondiendo por WhatsApp, confirmando citas y
+                reorganizando huecos manualmente.
+              </p>
+              <p>
+                Con una automatización bien planteada, las solicitudes pueden entrar ordenadas,
+                derivarse al canal correcto y activar recordatorios para reducir ausencias.
+              </p>
+            </article>
+
+            <article class="scenario-card">
+              <h3>Inmobiliaria de tamaño medio</h3>
+              <p>
+                Muchas consultas llegaban desde portales, formularios y WhatsApp, pero el
+                seguimiento comercial era irregular y dependía de tareas manuales.
+              </p>
+              <p>
+                Con un sistema automatizado, los leads se pueden clasificar, repartir y activar
+                con seguimientos constantes para no dejar oportunidades sin atender.
+              </p>
+            </article>
+
+            <article class="scenario-card">
+              <h3>Empresa de reformas</h3>
+              <p>
+                La información de presupuestos, visitas y clientes potenciales estaba repartida
+                entre llamadas, mensajes y hojas sueltas.
+              </p>
+              <p>
+                Con una automatización adaptada, se centraliza la entrada de solicitudes,
+                se ordenan prioridades y mejora la trazabilidad comercial sin más carga interna.
+              </p>
+            </article>
+
+            <article class="scenario-card">
+              <h3>Asesoría o despacho administrativo</h3>
+              <p>
+                El equipo repetía procesos una y otra vez: recepción de documentación,
+                avisos, recordatorios y seguimiento de incidencias.
+              </p>
+              <p>
+                Automatizando esos pasos, se gana tiempo operativo y se reducen olvidos
+                en tareas que no aportan valor estratégico.
+              </p>
+            </article>
+
+            <article class="scenario-card">
+              <h3>Tienda online en crecimiento</h3>
+              <p>
+                Ventas, consultas y postventa estaban repartidas en varios canales,
+                con poca visibilidad sobre el estado de cada caso.
+              </p>
+              <p>
+                Con automatizaciones entre formularios, email y gestión interna,
+                el negocio responde más rápido y mantiene mejor control del flujo diario.
+              </p>
+            </article>
+
+            <article class="scenario-card">
+              <h3>Centro de formación privado</h3>
+              <p>
+                Las solicitudes de información se atendían de forma desigual y muchos
+                interesados no recibían seguimiento a tiempo.
+              </p>
+              <p>
+                Con una automatización simple, los leads se registran mejor, se etiquetan
+                por interés y entran en secuencias de respuesta más ordenadas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section who-section" aria-label="Perfil de empresa ideal">
+        <div class="container who-layout">
+          <p class="section-label">Trabajamos con empresas que quieren…</p>
+          <ul>
+            <li>Escalar sin duplicar estructura administrativa.</li>
+            <li>Mejorar control de operaciones y ventas con datos conectados.</li>
+            <li>Reducir dependencia de tareas manuales y urgencias constantes.</li>
+            <li>Operar con procesos claros, consistentes y auditables.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container faq-shell">
+          <div>
+            <p class="section-label">FAQ</p>
+            <h2>Respuestas para decidir con confianza.</h2>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>¿Tengo que cambiar todas mis herramientas actuales?</summary>
+              <p>No. Aprovechamos tu stack actual y construimos una capa de conexión inteligente entre sistemas.</p>
+            </details>
+            <details>
+              <summary>¿Cuándo se empieza a notar el cambio?</summary>
+              <p>Las primeras mejoras suelen verse en semanas al automatizar tareas de alto volumen y seguimiento comercial.</p>
+            </details>
+            <details>
+              <summary>¿Es para empresas sin equipo técnico?</summary>
+              <p>Sí. El servicio está diseñado para gerencia y dirección. Nosotros asumimos la complejidad técnica.</p>
+            </details>
+            <details>
+              <summary>¿Incluís mantenimiento y evolución?</summary>
+              <p>Sí. Ofrecemos continuidad para mantener estabilidad, mejorar procesos y escalar con orden.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-final" id="contacto">
+        <div class="container cta-layout">
+          <div class="cta-copy">
+            <p class="section-label">Contacto estratégico</p>
+            <h2>Si buscas crecer con más margen y menos caos, empecemos por un diagnóstico serio.</h2>
+            <p>
+              Saldrás con una hoja de ruta clara: qué automatizar primero, por qué y con qué impacto esperado.
+            </p>
+            <ul>
+              <li>Sesión de 30 minutos</li>
+              <li>Análisis consultivo real</li>
+              <li>Respuesta en menos de 24h laborables</li>
+            </ul>
+          </div>
+
+          <form class="contact-card" action="https://formspree.io/f/mvzwzndg" method="POST" aria-label="Formulario de contacto premium">
+            <div class="form-grid">
+              <div class="field-group">
+                <label for="nombre">Nombre y cargo</label>
+                <input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Ej. Laura Gómez · Directora de Operaciones" required />
+              </div>
+
+              <div class="field-group">
+                <label for="empresa">Empresa</label>
+                <input id="empresa" name="empresa" type="text" autocomplete="organization" placeholder="Nombre de tu empresa" required />
+              </div>
+
+              <div class="field-group field-group--half">
+                <label for="email">Email profesional</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="nombre@empresa.com" required />
+              </div>
+
+              <div class="field-group field-group--half">
+                <label for="telefono">Teléfono (opcional)</label>
+                <input id="telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" placeholder="600 000 000" pattern="^(?:\+?34\s?)?[6789](?:\d\s?){8}$" title="Puedes escribir 600000000 o +34 600000000" />
+              </div>
+
+              <div class="field-group field-group--half">
+                <label for="sector">Sector de empresa</label>
+                <select id="sector" name="sector" required>
+                  <option value="">Selecciona una opción</option>
+                  <option>Servicios profesionales</option>
+                  <option>Retail / ecommerce</option>
+                  <option>Salud / clínicas</option>
+                  <option>Inmobiliario / construcción</option>
+                  <option>Educación</option>
+                  <option>Otro sector</option>
+                </select>
+              </div>
+
+              <div class="field-group field-group--half">
+                <label for="tamano">Tamaño de empresa</label>
+                <select id="tamano" name="tamano_empresa" required>
+                  <option value="">Selecciona una opción</option>
+                  <option>1-10 empleados</option>
+                  <option>11-50 empleados</option>
+                  <option>51-200 empleados</option>
+                  <option>+200 empleados</option>
+                </select>
+              </div>
+
+              <div class="field-group">
+                <label for="proceso">Proceso principal a automatizar</label>
+                <select id="proceso" name="proceso_automatizar" required>
+                  <option value="">Selecciona una opción</option>
+                  <option>Captación y seguimiento comercial</option>
+                  <option>Atención al cliente / soporte</option>
+                  <option>Operación interna / reporting</option>
+                  <option>Integración de herramientas y datos</option>
+                </select>
+              </div>
+
+              <div class="field-group field-group--half">
+                <label for="urgencia">Prioridad</label>
+                <select id="urgencia" name="urgencia" required>
+                  <option value="">Selecciona una opción</option>
+                  <option>Alta (necesitamos avanzar este mes)</option>
+                  <option>Media (próximo trimestre)</option>
+                  <option>Baja (exploración inicial)</option>
+                </select>
+              </div>
+
+              <div class="field-group field-group--half">
+                <label for="canal">Canal preferido de contacto</label>
+                <select id="canal" name="canal_preferido" required>
+                  <option value="">Selecciona una opción</option>
+                  <option>Email</option>
+                  <option>Llamada</option>
+                  <option>WhatsApp</option>
+                </select>
+              </div>
+
+              <div class="field-group">
+                <label for="reto">Contexto del reto</label>
+                <textarea id="reto" name="mensaje" rows="4" placeholder="Cuéntame brevemente qué parte de la operación quieres optimizar" required></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" data-submit-label="Solicitar diagnóstico estratégico">Solicitar diagnóstico estratégico</button>
+            <p class="form-note">Tus datos se usan solo para coordinar la reunión. No compartimos información con terceros.</p>
+            <p class="form-feedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <a class="floating-cta" href="#contacto" aria-label="Ir al formulario de contacto">Agendar diagnóstico</a>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="brand footer-brand">
+            <span class="brand-logo brand-logo-footer brand-logo--icon-only" role="img" aria-label="Isotipo de Orbia">
+              <svg class="brand-symbol" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+                <defs>
+                  <linearGradient id="orbia-f1" x1="8" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#8F57FF" />
+                    <stop offset="1" stop-color="#30D5D2" />
+                  </linearGradient>
+                  <linearGradient id="orbia-f2" x1="10" y1="54" x2="54" y2="10" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#3B2AD8" />
+                    <stop offset="1" stop-color="#36D8D6" />
+                  </linearGradient>
+                </defs>
+                <circle cx="32" cy="32" r="26" fill="none" stroke="url(#orbia-f1)" stroke-width="6" opacity="0.95" />
+                <path d="M14 20c8-10 26-12 37-2" fill="none" stroke="url(#orbia-f2)" stroke-width="5" stroke-linecap="round"/>
+                <path d="M50 44c-8 10-26 12-37 2" fill="none" stroke="url(#orbia-f2)" stroke-width="5" stroke-linecap="round"/>
+                <circle cx="32" cy="32" r="5.8" fill="#9CEBF0" />
+                <circle cx="44" cy="20" r="4.2" fill="#30D5D2" />
+                <circle cx="20" cy="27" r="4.2" fill="#875BFF" />
+                <circle cx="46" cy="41" r="4" fill="#30D5D2" />
+                <path d="M32 32L44 20M32 32L20 27M32 32L46 41" stroke="url(#orbia-f1)" stroke-width="3.6" stroke-linecap="round"/>
+              </svg>
+            </span>
+          </p>
+          <p>Consultoría de automatización e IA para empresas que exigen control, eficiencia y escalabilidad real.</p>
+        </div>
+        <div>
+          <h3>Empresa</h3>
+          <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#enfoque">Sobre Orbia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#contacto">Página de gracias</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Recursos</h3>
+          <ul>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+            <li><a href="#metodo">Método</a></li>
+            <li><a href="#servicios">Áreas de trabajo</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Política de cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Orbia Automation Studio. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
